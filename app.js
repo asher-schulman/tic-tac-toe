@@ -72,7 +72,7 @@ $(() => {
         console.log(`pc turn complete global turn counter is now ${globalTurn}`);
         checkWinner();
     } //END computerChoice()
-//create function for win conditions, alerting when there's a win and refreshing afterwards
+//create function for win conditions, console.loging when there's a win and refreshing afterwards
 function checkWinner() {
     //assign variables to all the box divs by id
     const $box1 = $('#box1').text();
@@ -87,71 +87,88 @@ function checkWinner() {
     //if statements for 8 win cons
     //toprow
     if ($box1 == 'X' && ($box1 == $box2 && $box2 == $box3)) {
-        alert('top row win');
+        console.log('top row win');
+        alert('winner!');
         return(true);
     } else if ($box1 == '0' && ($box1 == $box2 && $box2 == $box3)) {
-        alert('top row win');
+        console.log('top row win');
+        alert('winner!');
         return(true);
     }
     //midrow
     if ($box4 == 'X' && ($box4 == $box5 && $box5 == $box6)) {
-        alert('mid row win');
+        console.log('mid row win');
+        alert('winner!');
         return;
     } else if ($box4 == 'O' && ($box4 == $box5 && $box5 == $box6)) {
-        alert('mid row win');
+        console.log('mid row win');
+        alert('winner!');
         return;
     }
     //botrow
     if ($box7 == 'X' && ($box7 == $box8 && $box8 == $box9)) {
-        alert('bot row win');
+        console.log('bot row win');
+        alert('winner!');
         return;
     } else if ($box7 == 'O' && ($box7 == $box8 && $box8 == $box9)) {
-        alert('bot row win');
+        console.log('bot row win');
+        alert('winner!');
         return;
     }
     //leftcolumn
     if ($box1 == 'X' && ($box1 == $box4 && $box4 == $box7)) {
-        alert('leftcolumn win');
+        console.log('leftcolumn win');
+        alert('winner!');
         return;
     } else if ($box1 == 'O' && ($box1 == $box4 && $box4 == $box7)) {
-        alert('leftcolumn win');
+        console.log('leftcolumn win');
+        alert('winner!');
         return;
     }
     //midcolumn
     if ($box2 == 'X' && ($box2 == $box5 && $box5 == $box8)) {
-        alert('midcolumn win');
+        console.log('midcolumn win');
+        alert('winner!');
         return;
     } else if ($box2 == 'O' && ($box2 == $box5 && $box5 == $box8)) {
-        alert('midcolumn win');
+        console.log('midcolumn win');
+        alert('winner!');
         return;
     }
     //rightcolumn
     if ($box3 == 'X' && ($box3 == $box6 && $box6 == $box9)) {
-        alert('rightcolumn win');
+        console.log('rightcolumn win');
+        alert('winner!');
         return;
     } else if ($box3 == 'O' && ($box3 == $box6 && $box6 == $box9)) {
-        alert('rightcolumn win');
+        console.log('rightcolumn win');
+        alert('winner!');
         return;
     }
     //topleftdiag
     if ($box1 == 'X' && ($box1 == $box5 && $box5 == $box9)) {
-        alert('topleftdiag win');
+        console.log('topleftdiag win');
+        alert('winner!');
         return;
     } else if ($box1 == 'O' && ($box1 == $box5 && $box5 == $box9)) {
-        alert('topleftdiag win');
+        console.log('topleftdiag win');
+        alert('winner!');
         return;
     } 
     //toprightdiag
     if ($box3 == 'X' && ($box3 == $box5 && $box5 == $box7)) {
-        alert('toprightdiag win');
+        console.log('toprightdiag win');
+        alert('winner!');
         return;
     } else if ($box3 == 'O' && ($box3 == $box5 && $box5 == $box7)) {
-        alert('toprightdiag win');
+        console.log('toprightdiag win');
+        alert('winner!');
         return;
     }
     //tie?
     if ($globalChoices.length == 9) {
-        alert('tie here!');
+        console.log('tie here!');
+        alert('it is a tie!');
         globalTurn = 2;
         return;
     } else {
