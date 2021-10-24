@@ -1,0 +1,52 @@
+#header {
+    /* border: 3px solid chartreuse; */
+    margin: auto;
+    width: 750px;
+    height: 200px;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #303030;
+}
+h1 {
+    color: tomato;
+    text-shadow: 2px solid blanchedalmond;
+    text-align: center;
+    font-size: 36pt;
+}
+p {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 16pt;
+}
+.box {
+    /* border: 3px solid chartreuse; */
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    margin: 10px;
+    font-size: 66pt;
+}
+.button {
+    background-color: #707070;
+    color: blanchedalmond;
+    font-size: x-large;
+    border-radius: 10px;
+    height: 100px;
+    width: 120px;
+}
+#gameboard {
+    border: 20px solid #707070;
+    background: tomato;
+    margin: auto;
+    display: grid;
+    width: 650px;
+    height: 650px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.hidden {
+    font-size: 0;
+}
