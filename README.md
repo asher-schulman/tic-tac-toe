@@ -4,7 +4,7 @@
 
 **tags::** #project
 ***
-**Description::** tic tac toe, initially created in a Codepen as part of General Assembly's SEI Bootcamp. Copied over from [general assembly enterprise Github](https://git.generalassemb.ly/asher8346) Github to my [personal Github](https://github.com/asher-schulman/tic-tac-toe) Purposefully pasted over directly from Codepen (I did this a month or two in to the start on my journey into programming) and used Git to make bug fixes and implement new features.
+**Description::** tic tac toe, initially created in a Codepen as part of General Assembly's SEI Bootcamp. Copied over from [general assembly enterprise Github](https://git.generalassemb.ly/asher8346) to my [personal Github](https://github.com/asher-schulman/tic-tac-toe) Purposefully pasted over directly from Codepen (I did this a month or two in to the start on my journey into programming) and used Git to make bug fixes and implement new features.
 
 **live link(s)::** https://codepen.io/asher8346/pen/zYNvENL
 
